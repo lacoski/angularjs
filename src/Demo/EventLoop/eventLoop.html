@@ -1,0 +1,40 @@
+<html lang="en" ng-app="myApp">
+
+<head>
+    <title>Hello AngularJS</title>
+    <meta charset="utf-8">
+    <!-- load bootstrap and jquery via CDN -->
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.angularjs.org/1.4.9/angular.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.4.9/angular-messages.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.4.9/angular-resource.min.js"></script>
+    <script type="text/javascript" src="eventLoop.js"></script>
+    <style>
+        * {
+            font-size: 1.05em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header"> <a class="navbar-brand" href="#">
+                    EventLoop - Các sự kiện
+                </a> </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div ng-controller="mainController">
+            <div>
+                <label>Nhập tên: </label>
+                <input type="text" ng-model="name"> </div>
+            <hr/>
+            <h1>Kết quả : {{ name }}</h1>
+            <h1>Kết quả chữ thường : {{ lowercaseName() }}</h1> </div>
+    </div>
+</body>
+
+</html>

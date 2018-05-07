@@ -1,0 +1,26 @@
+<h1>This is Main pages</h1>
+<hr/>
+<h3>Search Result</h3>
+<div class="list-group">
+    <search-result></search-result>
+    <search-result></search-result>
+</div>
+<!--
+<div class="list-group">
+    <search-result-ds person-name="Thành Bá" person-address="Long Biên Hà Nội"></search-result-ds>
+    <search-result-ds person-name="Thành Bá 2" person-address="Long Biên Hà Nội"></search-result-ds>
+</div>
+<div class="list-group">
+    <search-result-binding-two-way person-object="person"></search-result-binding-two-way>
+</div>
+-->
+
+<!--
+<div class="list-group">
+    <search-result-character-and person-object="person2" formatted-address-function= "formattedAddress(aperson)"></search-result-character-and>
+</div>
+-->
+
+<div class="list-group">
+    <search-result-character-and ng-repeat="person in people" person-object="person" formatted-address-function= "formattedAddress(aperson)"></search-result-character-and>
+</div>
