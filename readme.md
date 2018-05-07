@@ -1,5 +1,9 @@
 # Tìm hiểu AnglarJS
 ---
+## Mục lục:
+- `project`: Thư mục chứa Demo
+- `src`: Mã nguồn mẫu 
+
 ## Tổng quát
 AngularJS là một framework mã nguồn mở dùng cho các ứng dụng web được xây dựng trên nền Javascript. Hiện tại nó vẫn đang được duy trì bởi Google và bỏi cộng đồng các cá nhân, doanh nghiệp để giải quyết các vấn đề khi xây dựng một ứng dụng web.
 
